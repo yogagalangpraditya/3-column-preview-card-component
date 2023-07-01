@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+    <link rel="stylesheet" href="output.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="lg:flex justify-center items-center lg:py-56 lg:px-40 py-20 px-5 bg-[#f2f2f2]">
+      <div class="card-1 bg-[#e38826] lg:w-[300px] h-full lg:px-14 px-10 py-14 lg:rounded-l-lg max-sm:rounded-t-lg">
+        <div class="flex flex-col gap-10 mb-20">
+          <img class="w-20" src="images/icon-sedans.svg" alt="" />
+          <h1 class="uppercase font-display text-[#f2f2f2] text-4xl">Sedans</h1>
+          <p class="font-sans text-white text-base text-left">
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+        </div>
+        <a href="#" class="py-3 px-5 rounded-full text-[#e38826] border border-transparent bg-[#f2f2f2] transition duration-300 hover:bg-transparent hover:border hover:border-[#f2f2f2] hover:text-[#f2f2f2]">Learn More</a>
+      </div>
+
+      <div class="card-2 bg-[#006970] lg:w-[300px] h-full lg:px-14 px-10 py-14">
+        <div class="flex flex-col gap-10 mb-20">
+          <img class="w-20" src="images/icon-sedans.svg" alt="" />
+          <h1 class="uppercase font-display text-[#f2f2f2] text-4xl">SUVs</h1>
+          <p class="font-sans text-white text-base text-left">
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
+          </p>
+        </div>
+        <a href="#" class="py-3 px-5 rounded-full text-[#006970] border border-transparent bg-[#f2f2f2] transition duration-300 hover:bg-transparent hover:border hover:border-[#f2f2f2] hover:text-[#f2f2f2]">Learn More</a>
+      </div>
+
+      <div
+        class="card-3 bg-[#004241] lg:w-[300px] h-full lg:px-14 px-10 py-14 lg:rounded-r-lg max-sm:rounded-b-lg">
+        <div class="flex flex-col gap-10 mb-20">
+          <img class="w-20" src="images/icon-sedans.svg" alt="" />
+          <h1 class="uppercase font-display text-[#f2f2f2] text-4xl">Luxury</h1>
+          <p class="font-sans text-white text-base text-left">
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+        </div>
+        <a href="#" class="py-3 px-5 rounded-full text-[#004241] border border-transparent bg-[#f2f2f2] transition duration-300 hover:bg-transparent hover:border hover:border-[#f2f2f2] hover:text-[#f2f2f2]">Learn More</a>
+      </div>
+    </section>
+
+    <div class="attribution bg-[#f2f2f2]">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://github.com/yogagalangpraditya">Yoga Galang Praditya</a>.
+    </div>
+  </body>
+</html>
